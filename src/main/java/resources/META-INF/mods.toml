@@ -1,0 +1,6 @@
+modLoader="javafml"
+loaderVersion="[8,)"
+modId="MDB"
+version="1.0"
+displayName="MacroDB"
+description='A mod to log cheaters in a personal database.'
