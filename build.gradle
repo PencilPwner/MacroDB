@@ -18,6 +18,6 @@ dependencies {
 
 jar {
     manifest {
-        attributes 'Main-Class': 'com.yourmod.CheaterLoggerMod'
+        attributes 'Main-Class': 'com.yourmod.MDB'
     }
 }
