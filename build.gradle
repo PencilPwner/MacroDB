@@ -8,16 +8,12 @@ sourceCompatibility = '1.8'
 targetCompatibility = '1.8'
 
 repositories {
+    maven {
+        url = 'https://maven.minecraftforge.net/'
+    }
     mavenCentral()
-    maven { url = "https://files.minecraftforge.net/maven" }
 }
 
 dependencies {
     compile 'net.minecraftforge:forge:1.8.9-11.15.1.2318-1.8.9'
-}
-
-jar {
-    manifest {
-        attributes 'Main-Class': 'com.yourmod.MDB'
-    }
 }
